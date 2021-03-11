@@ -9,7 +9,7 @@
 
 * Fork the project.
 
-* Create a folder under source with your name, using `emma_template` of Emma Dubois as a template.
+* Create a folder under `source` with your name, using `emma_template` of Emma Dubois as a template.
 
 * Edit the index.rst file. It's quite straightforward.
 
@@ -42,7 +42,7 @@ Cette section documente la contribution d'Emma Dubois au projet Wino-fr.
 
 ## The lazy way
 
-Create a file named `yourname/index.rst` in the source folder. Here I use `anonynym/index.rst` as an example. Use the above `index.rst` of Emma Dubois as template.
+Create a file named `yourname/index.rst` in the `source` folder. Here I use `anonynym/index.rst` as an example. Use the above `index.rst` of Emma Dubois as template.
 
 You'll need a Github account.
 
