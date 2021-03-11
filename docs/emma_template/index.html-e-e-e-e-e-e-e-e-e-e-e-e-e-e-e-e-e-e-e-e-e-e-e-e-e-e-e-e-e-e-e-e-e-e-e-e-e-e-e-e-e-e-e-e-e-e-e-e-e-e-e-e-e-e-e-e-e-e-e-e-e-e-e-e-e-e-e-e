@@ -1,10 +1,10 @@
 <!doctype html>
 <html class="no-js">
   <head><meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Recherche" href="../search.html" /><link rel="prev" title="3. Towards a full version of french wino (final steps)" href="../xiaoou/03_french_finalfinal_json.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Recherche" href="../search.html" />
 
     <meta name="generator" content="sphinx-3.5.1, furo 2021.02.28.beta28"/>
-        <title>Emma Dubois 2020/04/06 - Documentation Winograd-fr</title>
+        <title>Emma Dubois - Documentation Winograd-fr</title>
       <link rel="stylesheet" href="../static/styles/furo.css">
     <link rel="stylesheet" href="../static/pygments.css">
     <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="../static/pygments_dark.css">
@@ -114,9 +114,6 @@
 </ul>
 </li>
 </ul>
-<ul class="current">
-<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Emma Dubois 2020/04/06</a></li>
-</ul>
 
 </div>
 </div>
@@ -130,12 +127,12 @@
         <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
-        <div class="section" id="emma-dubois-2020-04-06">
-<h1>Emma Dubois 2020/04/06<a class="headerlink" href="#emma-dubois-2020-04-06" title="Lien permanent vers ce titre">¶</a></h1>
-<div class="admonition-log-emma-dubois-2020-04-06 admonition">
-<p class="admonition-title">Log Emma Dubois 2020-04-06</p>
+        <div class="section" id="emma-dubois">
+<h1>Emma Dubois<a class="headerlink" href="#emma-dubois" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="admonition-log-emma-dubois admonition">
+<p class="admonition-title">Log Emma Dubois</p>
 <p><input checked="" type="checkbox"/> Copie des nouveaux items Winograd_FR_NewItems.src dans Winograd_FR.src2</p>
-<p><input checked="" type="checkbox"/> Vérification forme et orthographe des items</p>
+<p><input type="checkbox"/> Vérification forme et orthographe des items</p>
 </div>
 </div>
 
@@ -144,17 +141,7 @@
         
         <div class="related-pages">
           
-          <a class="prev-page" href="../xiaoou/03_french_finalfinal_json.html">
-              <svg><use href="#svg-arrow-right"></use></svg>
-              <div class="page-info">
-                <div class="context">
-                  <span>Previous</span>
-                </div>
-                
-                <div class="title"><span class="section-number">3. </span>Towards a full version of french wino (final steps)</div>
-                
-              </div>
-            </a>
+          
         </div>
 
         <div class="related-information">

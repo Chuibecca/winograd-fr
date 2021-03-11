@@ -1,10 +1,10 @@
 <!doctype html>
 <html class="no-js">
   <head><meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Recherche" href="../search.html" /><link rel="prev" title="3. Towards a full version of french wino (final steps)" href="../xiaoou/03_french_finalfinal_json.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Recherche" href="../search.html" />
 
     <meta name="generator" content="sphinx-3.5.1, furo 2021.02.28.beta28"/>
-        <title>Emma Dubois 2020/04/06 - Documentation Winograd-fr</title>
+        <title>Data - Documentation Winograd-fr</title>
       <link rel="stylesheet" href="../static/styles/furo.css">
     <link rel="stylesheet" href="../static/pygments.css">
     <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="../static/pygments_dark.css">
@@ -114,8 +114,8 @@
 </ul>
 </li>
 </ul>
-<ul class="current">
-<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Emma Dubois 2020/04/06</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../emma_template/index.html">Emma Dubois 2020/04/06</a></li>
 </ul>
 
 </div>
@@ -130,13 +130,45 @@
         <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
-        <div class="section" id="emma-dubois-2020-04-06">
-<h1>Emma Dubois 2020/04/06<a class="headerlink" href="#emma-dubois-2020-04-06" title="Lien permanent vers ce titre">¶</a></h1>
-<div class="admonition-log-emma-dubois-2020-04-06 admonition">
-<p class="admonition-title">Log Emma Dubois 2020-04-06</p>
-<p><input checked="" type="checkbox"/> Copie des nouveaux items Winograd_FR_NewItems.src dans Winograd_FR.src2</p>
-<p><input checked="" type="checkbox"/> Vérification forme et orthographe des items</p>
-</div>
+        <div class="section" id="data">
+<h1>Data<a class="headerlink" href="#data" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="table-wrapper"><table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 26%"/>
+<col style="width: 17%"/>
+<col style="width: 5%"/>
+<col style="width: 52%"/>
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>name</p></th>
+<th class="head"><p>directory</p></th>
+<th class="head"><p>lang</p></th>
+<th class="head"><p>info</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>pmi_frwac.csv</p></td>
+<td><p>data/french</p></td>
+<td><p>fr</p></td>
+<td><p>original pmi data from olga/pascal</p></td>
+</tr>
+<tr class="row-odd"><td><p>pmi_frwac_alt_corrected.json</p></td>
+<td><p>data/french</p></td>
+<td><p>fr</p></td>
+<td><p>question/answer pairs for new pmi calculation frTenten</p></td>
+</tr>
+<tr class="row-even"><td><p>winograd_fr_v2.xml</p></td>
+<td><p>data/french</p></td>
+<td><p>fr</p></td>
+<td><p>original french winograd xml file with english ids revised</p></td>
+</tr>
+<tr class="row-odd"><td><p>wino285.json</p></td>
+<td><p>data/english</p></td>
+<td><p>en</p></td>
+<td><p>285 english wino items</p></td>
+</tr>
+</tbody>
+</table></div>
 </div>
 
       </article>
@@ -144,17 +176,7 @@
         
         <div class="related-pages">
           
-          <a class="prev-page" href="../xiaoou/03_french_finalfinal_json.html">
-              <svg><use href="#svg-arrow-right"></use></svg>
-              <div class="page-info">
-                <div class="context">
-                  <span>Previous</span>
-                </div>
-                
-                <div class="title"><span class="section-number">3. </span>Towards a full version of french wino (final steps)</div>
-                
-              </div>
-            </a>
+          
         </div>
 
         <div class="related-information">
@@ -165,7 +187,7 @@
               <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
               <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
             |
-            <a class="muted-link" href="../_sources/emma_template/index.rst.txt"
+            <a class="muted-link" href="../_sources/data_template/index.rst.txt"
                rel="nofollow">
               Montrer le code source
             </a>
