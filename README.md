@@ -52,6 +52,8 @@ You'll need a Github account.
 
 ![](.README_images/5eadcf54.png)
 
+![](.README_images/18774e92.png)
+
 If you ever need to log your work, just go to your folder and edit the `index.rst`.
 
 ![](.README_images/ea8a641d.png)

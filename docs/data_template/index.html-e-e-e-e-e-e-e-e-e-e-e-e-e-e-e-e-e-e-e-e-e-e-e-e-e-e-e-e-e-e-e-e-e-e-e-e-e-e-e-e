@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Recherche" href="../search.html" />
 
     <meta name="generator" content="sphinx-3.5.1, furo 2021.02.28.beta28"/>
-        <title>Data - Documentation Winograd-fr</title>
+        <title>Data generated for the project - Documentation Winograd-fr</title>
       <link rel="stylesheet" href="../static/styles/furo.css">
     <link rel="stylesheet" href="../static/pygments.css">
     <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="../static/pygments_dark.css">
@@ -130,8 +130,8 @@
         <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
-        <div class="section" id="data">
-<h1>Data<a class="headerlink" href="#data" title="Lien permanent vers ce titre">¶</a></h1>
+        <div class="section" id="data-generated-for-the-project">
+<h1>Data generated for the project<a class="headerlink" href="#data-generated-for-the-project" title="Lien permanent vers ce titre">¶</a></h1>
 <div class="table-wrapper"><table class="colwidths-given docutils align-default">
 <colgroup>
 <col style="width: 26%"/>
@@ -187,7 +187,7 @@
               <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
               <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
             |
-            <a class="muted-link" href="../sources/data_template/index.rst.txt"
+            <a class="muted-link" href="../_sources/data_template/index.rst.txt"
                rel="nofollow">
               Montrer le code source
             </a>
