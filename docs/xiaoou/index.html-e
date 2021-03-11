@@ -138,7 +138,7 @@
 <p><input checked="" type="checkbox"/>  2021-03-10: Get a french-english linking version and using items instead of schemas by <em>Xiaoou</em> -&gt; <cite>pmi_frwac_withid.json</cite> <a class="reference internal" href="02_french_final_json.html"><span class="doc">Towards a full version of french wino (split schemas)</span></a></p>
 <p><input checked="" type="checkbox"/>  2021-03-10: Build the complete version from xml by <em>Xiaoou</em> -&gt; winofr_final.json <a class="reference internal" href="03_french_finalfinal_json.html"><span class="doc">Towards a full version of french wino (final steps)</span></a></p>
 <p><input checked="" type="checkbox"/>  2021-03-11: Build the complete version from xml by <em>Xiaoou</em> -&gt; v5.json <a class="reference internal" href="04_add_pmi_items.html"><span class="doc">Add pmi-able informations</span></a></p>
-<p><input type="checkbox"/>  2021-03-12: Discussion Pascal, Correct <cite>v4.json</cite></p>
+<p><input type="checkbox"/>  2021-03-12: Discussion Pascal, Correct <cite>v5.json</cite> <a class="reference internal" href="05_make_uppercase_add_nontranslated.html"><span class="doc">&lt;no title&gt;</span></a></p>
 <p><input type="checkbox"/>  2021-03-12: Recalculate pmi with scraper and compare with Bert no context</p>
 </div>
 </div>

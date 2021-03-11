@@ -607,6 +607,46 @@ div.rendered_html tbody tr:hover {
 </div>
 </div>
 <div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[175]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython2 notranslate"><div class="highlight"><pre>
+
+
+<span></span><span class="c1"># add english</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_json</span><span class="p">(</span><span class="n">data_dir</span><span class="o">+</span><span class="s2">"v5.json"</span><span class="p">)</span>
+<span class="n">df_eng</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_json</span><span class="p">(</span><span class="s2">"../../../data/english/wino285.json"</span><span class="p">)</span>
+<span class="c1"># for i,row in df.iterrows():</span>
+<span class="c1">#     if</span>
+<span class="nb">id</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">285</span><span class="p">))</span>
+<span class="nb">id</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="o">+</span><span class="mi">1</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">id</span><span class="p">]</span>
+<span class="nb">id</span>
+<span class="n">df_eng</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]</span> <span class="o">=</span> <span class="nb">id</span>
+<span class="n">df_eng</span> <span class="o">=</span> <span class="n">df_eng</span><span class="p">[[</span><span class="s2">"id"</span><span class="p">,</span><span class="s2">"text"</span><span class="p">]]</span>
+<span class="n">df_eng_ids</span> <span class="o">=</span> <span class="n">df_eng</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+<span class="n">df_eng_text</span> <span class="o">=</span> <span class="n">df_eng</span><span class="p">[</span><span class="s2">"text"</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+<span class="n">df_eng_dict</span> <span class="o">=</span> <span class="p">{</span><span class="n">x</span><span class="p">:</span><span class="n">y</span> <span class="k">for</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">df_eng_ids</span><span class="p">,</span><span class="n">df_eng_text</span><span class="p">)}</span>
+<span class="n">df_eng_dict</span>
+<span class="n">df_ids</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span><span class="n">row</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+    <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="s2">"english_text"</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_eng_dict</span><span class="p">[</span><span class="n">row</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]]</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s1">'id'</span><span class="p">,</span><span class="s1">'english_text'</span><span class="p">,</span><span class="s1">'text'</span><span class="p">,</span> <span class="s1">'masked_text_bert'</span><span class="p">,</span> <span class="s1">'question'</span><span class="p">,</span> <span class="s1">'hypothesis'</span><span class="p">,</span>
+       <span class="s1">'masked_hypothesis_bert'</span><span class="p">,</span> <span class="s1">'correct_answer'</span><span class="p">,</span> <span class="s1">'wrong_answer'</span><span class="p">,</span>
+       <span class="s1">'correct_answer_bert'</span><span class="p">,</span> <span class="s1">'wrong_answer_bert'</span><span class="p">,</span> <span class="s1">'french_schema_no'</span><span class="p">,</span>
+       <span class="s1">'pmi_able'</span><span class="p">,</span> <span class="s1">'question_right_lemma'</span><span class="p">,</span> <span class="s1">'question_wrong_lemma'</span><span class="p">]]</span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[178]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython2 notranslate"><div class="highlight"><pre>
+<span></span><span class="c1"># xo_write_json(data_dir+"v5.json",df)</span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
 </pre></div>
 </div>

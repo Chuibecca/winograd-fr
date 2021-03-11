@@ -24,7 +24,7 @@ Cette section documente la contribution de Xiaoou Wang au projet Wino-fr.
 
     |check|  2021-03-11: Build the complete version from xml by *Xiaoou* -> v5.json :doc:`./04_add_pmi_items`
 
-    |uncheck|  2021-03-12: Discussion Pascal, Correct `v4.json`
+    |uncheck|  2021-03-12: Discussion Pascal, Correct `v5.json` :doc:`./05_make_uppercase_add_nontranslated`
 
     |uncheck|  2021-03-12: Recalculate pmi with scraper and compare with Bert no context
 
