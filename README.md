@@ -5,11 +5,11 @@
 
 ## Join us
 
-### The good way
+### The Git/correct way
 
 * Fork the project.
 
-* Create a folder under source with your name, using `emma_template` as a template.
+* Create a folder under source with your name, using `emma_template` of Emma Dubois as a template.
 
 * Edit the index.rst file. It's quite straightforward.
 
@@ -42,9 +42,17 @@ Cette section documente la contribution d'Emma Dubois au projet Wino-fr.
 
 ## The lazy way
 
-Send an email to `xiaoouwangfrance@gmail.com` so that he creates the folder for you with your name.
+Create a file named `yourname/index.rst` in the source folder. Here I use `anonynym/index.rst` as an example. Use the above `index.rst` of Emma Dubois as template.
 
-Go to your folder and edit the `index.rst`.
+You'll need a Github account.
+
+![](.README_images/636b68da.png)
+
+![](.README_images/46c519b4.png)
+
+![](.README_images/5eadcf54.png)
+
+If you ever need to log your work, just go to your folder and edit the `index.rst`.
 
 ![](.README_images/ea8a641d.png)
 
