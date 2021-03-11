@@ -16,7 +16,7 @@ find . -type f -print0 | xargs -0 perl -pi -e "s/\?digest.*\"/\"/g"
 cd ..
 echo here
 echo $PWD
-git pull
+git pull origin master
 git add .
 git commit -m "refresh"
 git push origin master
