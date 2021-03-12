@@ -1,10 +1,10 @@
 <!doctype html>
 <html class="no-js">
   <head><meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Recherche" href="../search.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Recherche" href="../search.html" /><link rel="next" title="Xiaoou Wang Internship Winograd (2021/02/01 - 2021/07/31)" href="../xiaoou/index.html" /><link rel="prev" title="Welcome to Wino-fr’s documentation page" href="../index.html" />
 
     <meta name="generator" content="sphinx-3.5.1, furo 2021.02.28.beta28"/>
-        <title>Data generated for the project - Documentation Winograd-fr</title>
+        <title>Csv, json and xml - Documentation Winograd-fr</title>
       <link rel="stylesheet" href="../static/styles/furo.css">
     <link rel="stylesheet" href="../static/pygments.css">
     <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="../static/pygments_dark.css">
@@ -106,7 +106,12 @@
   <input type="hidden" name="check_keywords" value="yes">
   <input type="hidden" name="area" value="default">
 </form><div class="sidebar-scroll"><div class="sidebar-tree">
-  <ul>
+  <p class="caption"><span class="caption-text">Data generated during our project</span></p>
+<ul class="current">
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Csv, json and xml</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Our interns</span></p>
+<ul>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../xiaoou/index.html">Xiaoou Wang Internship Winograd (2021/02/01 - 2021/07/31)</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label for="toctree-checkbox-1"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../xiaoou/01_french_data_cleaning.html">1. French data cleaning</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../xiaoou/02_french_final_json.html">2. Towards a full version of french wino (split schemas)</a></li>
@@ -130,8 +135,8 @@
         <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
-        <div class="section" id="data-generated-for-the-project">
-<h1>Data generated for the project<a class="headerlink" href="#data-generated-for-the-project" title="Lien permanent vers ce titre">¶</a></h1>
+        <div class="section" id="csv-json-and-xml">
+<h1>Csv, json and xml<a class="headerlink" href="#csv-json-and-xml" title="Lien permanent vers ce titre">¶</a></h1>
 <div class="table-wrapper"><table class="colwidths-given docutils align-default">
 <colgroup>
 <col style="width: 26%"/>
@@ -175,8 +180,26 @@
       <footer>
         
         <div class="related-pages">
-          
-          
+          <a class="next-page" href="../xiaoou/index.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Xiaoou Wang Internship Winograd (2021/02/01 - 2021/07/31)</div>
+              </div>
+              <svg><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="../index.html">
+              <svg><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Home</div>
+                
+              </div>
+            </a>
         </div>
 
         <div class="related-information">
@@ -187,7 +210,7 @@
               <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
               <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
             |
-            <a class="muted-link" href="../sources/data_template/index.rst.txt"
+            <a class="muted-link" href="../_sources/data_template/index.rst.txt"
                rel="nofollow">
               Montrer le code source
             </a>
