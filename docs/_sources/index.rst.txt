@@ -26,9 +26,9 @@ Data
    :caption: Data generated during our project
    :glob:
 
-   data_template/index
+   data/index
 
-.. include:: data_template/index.rst
+.. include:: data/index.rst
    :start-line: 3
 
 Interns
@@ -40,7 +40,7 @@ Interns
    :glob:
 
    xiaoou/index
-   emma_template/index
+   log/*
 
 Cette section documente la contribution de Xiaoou Wang au projet Wino-fr.
 
@@ -60,5 +60,3 @@ Cette section documente la contribution de Xiaoou Wang au projet Wino-fr.
 
     |uncheck|  2021-03-12: Recalculate pmi with scraper and compare with Bert no context
 
-.. include:: emma_template/index.rst
-   :start-line: 3
